@@ -1,0 +1,49 @@
+.da-container[aria-label~="Isekai"] {
+    background-image: url(https://previews.123rf.com/images/helenfield/helenfield1902/helenfield190201630/117924850-japan-traditional-sumi-e-painting-indian-ink-illustration-japanese-picture-sakura-sun-and-mountain.jpg);
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-color: #000000c2;
+    border-right: 3px solid #b1b1b170;
+}
+.guild-header header {
+	color: #ffa!important;
+	font-weight: bolder;
+}
+
+.da-hasThumbnail{
+    border-color: rgb(103, 103, 103);
+    background-image: url(https://i.imgur.com/XI2hDYV.png);
+    background-blend-mode: darken;
+    background-color: #02020294;
+}
+
+.da-embedWrapper code {
+    background: transparent;
+    border-radius: 0px;
+    border-width: 1px 0px;
+    border-color: #80808054;
+}
+
+
+.embedFooterText {
+    font-weight: 100;
+    font-style: italic;
+}
+
+.da-mainContent{padding:2px 0px;}
+
+.da-chatContent[aria-label="capital-city-hwen (channel)"]{background-image: url(https://wallpaperaccess.com/full/691258.jpg);}
+.da-chatContent{
+   background: #36393f;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light
+    
+}
+
+.containerDefault{
+    padding: 3px 0px;
+    background: #0000003b;
+}
+
