@@ -1,49 +1,99 @@
-.da-container[aria-label~="Isekai"] {
-    background-image: url(https://previews.123rf.com/images/helenfield/helenfield1902/helenfield190201630/117924850-japan-traditional-sumi-e-painting-indian-ink-illustration-japanese-picture-sakura-sun-and-mountain.jpg);
-    background-position: center;
-    background-blend-mode: darken;
+
+/*POZADINA TEME*/
+ .forum-section{background-image:url(https://i.imgur.com/v08tVPn.png);}
+
+/*POZADINA BIOMA*/
+body{background-image:url(https://i.imgur.com/WFAlRLN.jpg)!important;}
+
+/*BOJA BIOMA*/
+.forum-section,#header-banner,#page-footer,.forum .forum-section h3 a,#page-footer a,.posts-section{
+color:#cfd7e6!important;
+border-color:#cfd7e6!important;}
+
+body::-webkit-scrollbar-thumb{background:#cfd7e6!important;}
+
+.upozorenje {
+    background: transparent!important;
+    border: 0px solid!important;
+    color: #cfd7e6!important
+}
+.upozorenje {
+    font-size: 22px;
+    color: #cfd7e6;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #000000, 2px 2px black, 0px 0px 10px black;
+    line-height: 25px;
+    background: #00000052;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.forum .forum-section h3 a {
+    pointer-events: none;
+    filter: drop-shadow(0px 0px 5px black);
+    text-shadow: 4px 2px black;
+}
+
+.forum-description p {
+    clear: both;
+    color: #a99e8f;
+    display: block;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.forum-lastpost {
+    display: none;
+}
+
+.forum .forum-section {
+    width: 500px;
+    height: 500px;
+    left: 50%;
+    position: relative;
+    margin-left: -250px;
+    border-radius: 50%;
+    background-color: gray;
     background-size: cover;
-    background-color: #000000c2;
-    border-right: 3px solid #b1b1b170;
-}
-.guild-header header {
-	color: #ffa!important;
-	font-weight: bolder;
-}
-
-.da-hasThumbnail{
-    border-color: rgb(103, 103, 103);
-    background-image: url(https://i.imgur.com/XI2hDYV.png);
-    background-blend-mode: darken;
-    background-color: #02020294;
-}
-
-.da-embedWrapper code {
-    background: transparent;
-    border-radius: 0px;
-    border-width: 1px 0px;
-    border-color: #80808054;
-}
-
-
-.embedFooterText {
-    font-weight: 100;
-    font-style: italic;
-}
-
-.da-mainContent{padding:2px 0px;}
-
-.da-chatContent[aria-label="capital-city-hwen (channel)"]{background-image: url(https://wallpaperaccess.com/full/691258.jpg);}
-.da-chatContent{
-   background: #36393f;
-    background-size: cover;
     background-position: center;
-    background-blend-mode: soft-light
-    
+    border: 10px solid #b59565;
+    padding: 0px;
+    margin-bottom: 150px;
+}
+.forum .forum-section h3 {
+    padding-top: 15px!important;
+    font-size: 60px;
+    font-family: kaushan script;
+    overflow: visible;
+    height: 70px;
+    width: 1000px;
+    display: inline-block;
+    position: relative;
+    min-width: 1000px;
+    margin: 0px;
+}
+.posts {
+    margin: 200px 0px 0px 0px;
 }
 
-.containerDefault{
-    padding: 3px 0px;
-    background: #0000003b;
+.forum-statistics-topics,
+.forum .forum-icon,
+.forum-statistics-posts,
+.new-page-html,
+.dzm,
+.inner {
+    display: none;
+}
+#header-banner {
+    margin-bottom: 30px!important;
 }
 
+.forum .forum-description {
+    position: relative;
+    top: 500px;
+    width: 1000px;
+    text-align: center;
+    margin-left: -68%;
+    margin-top: 10px;
+    display: block;
+}
