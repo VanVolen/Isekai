@@ -1,0 +1,106 @@
+.popupholder,
+header,
+#header-banner,
+#page-footer,
+.dzm,
+#login_popup {
+  display: none !important;
+}
+.block-content {
+  background: transparent !important;
+  color: #dbdbdb;
+  font-size: 16px;
+}
+.checkbox {
+  border-color: #ffffff;
+  border-width: 2px;
+}
+.checkbox-check:after {
+  color: #5ccd5c;
+  font-weight: 900;
+}
+body {
+  padding: 150px 5% !important;
+}
+.btn-green,
+.btn-login {
+  font-family: oswald;
+  letter-spacing: 1px;
+  width: auto;
+  font-size: 0px;
+  display: inline-block;
+  left: 50%;
+  position: relative;
+  transform: translatex(-50%);
+}
+.btn-login {
+  font-size: 20px;
+  text-transform: uppercase;
+  width: auto !important;
+}
+btn-login {
+  font-family: oswald;
+  letter-spacing: 1px;
+  width: auto;
+  font-size: 0px;
+  display: inline-block;
+  left: 50%;
+  position: relative;
+  transform: translatex(-50%);
+}
+.btn-green::after {
+  content: "Saglasan sam sa navedenim";
+  font-size: 20px;
+  padding-left: 10px;
+}
+.btn-green span {
+  display: none;
+}
+.block-content-error {
+  background-color: #cd5c5c00;
+  color: #e84447;
+  font-weight: 900;
+}
+label > span {
+  display: inline-block;
+  font-weight: 400;
+  margin: 10px 0px;
+  font-family: oswald;
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+#cont_pwd {
+  max-width: 300px;
+  left: 50%;
+  position: relative;
+  transform: translatex(-50%);
+  margin-top: 5px;
+}
+.input-subtle,
+.inputbox,
+select {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  clear: both;
+  display: block;
+  margin-bottom: 11px;
+  border-bottom: 2px solid;
+  color: #e84447;
+  width: 100%;
+  max-width: 300px;
+  left: 50%;
+  position: relative;
+  transform: translatex(-50%);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+.btn-flat {
+  margin-top: 60px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 9px;
+}
