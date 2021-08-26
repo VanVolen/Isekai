@@ -5,6 +5,7 @@ header,
 .dzm,
 #login_popup {
   display: none !important;
+background:red!important;
 }
 .block-content {
   background: transparent !important;
