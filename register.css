@@ -104,3 +104,25 @@ select {
   letter-spacing: 1px;
   margin-left: 9px;
 }
+body {
+    background: linear-gradient(45deg,black,#585858,#020202), url(https://i.imgur.com/2B5DeMN.jpg);
+    background-blend-mode: multiply;
+}
+#form_confirm, #ucp {
+    background: #292929d9;
+    background-color: #333;
+    border: 10px solid;
+    border-radius: 20px;
+    border-width: 5px;
+    box-shadow: unset;
+    color: var(--main-color);
+    left: 50%;
+    max-width: 500px;
+    margin-left: -250px;
+    z-index: 999;
+    position: fixed;
+    top: 50%;
+    height: 500px;
+    margin-top: -250px;
+}
+
